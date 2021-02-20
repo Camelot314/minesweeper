@@ -82,34 +82,12 @@ public class MineButton extends JButton{
 //				/**
 //				 * ActionListner object to detect button clicks.
 //				 */
-//				new ActionListener() {
-//					/**
-//					 * When button is clicked it calls the onTap function.
-//					 */
-//					@Override
-//					public void actionPerformed(ActionEvent e) {
-//						onLeftClick(field.getIncorrectCoords());
-//						
-//					}
-//				}
 				leftListner
 		);
 		addMouseListener(
 //				/**
 //				 * MouseAdapter object to detect right clicks.
 //				 */
-//				new MouseAdapter() {
-//					/**
-//					 * If the event is a right click then it calls
-//					 * the right click method.
-//					 */
-//					@Override
-//					public void mouseClicked(MouseEvent e) {
-//						if (SwingUtilities.isRightMouseButton(e)) {
-//							onRightClick();
-//						}
-//					}
-//				}
 				rightListener
 		);
 		
