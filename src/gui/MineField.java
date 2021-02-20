@@ -72,8 +72,6 @@ public class MineField extends JPanel{
 			for (int i = 0; i < incorrectBombs.size(); i ++) {
 				
 				int idToChange = convertToId(incorrectBombs.get(i)[0], incorrectBombs.get(i)[1]);
-//				int idToChange = incorrectBombs.get(i)[0] * game.getWidth()
-//						+ incorrectBombs.get(i)[1];
 				mines.get(idToChange).changeColor(true);
 			}
 		}
